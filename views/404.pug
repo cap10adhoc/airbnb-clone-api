@@ -1,0 +1,19 @@
+extends layout
+block content
+    .container
+    .row
+        .col-md-12
+        .error-template
+            h1
+            | Oops!
+            h2
+            | 404 Not Found
+            .error-details
+            | Sorry, an error has occured, Requested page not found!
+            .error-actions
+            a.btn.btn-primary.btn-lg(href='/')
+                span.glyphicon.glyphicon-home
+                |                         Take Me Home
+            a.btn.btn-default.btn-lg(target='_blank' href='https://www.codingshiksha.com')
+                span.glyphicon.glyphicon-envelope
+                |  Contact Support
